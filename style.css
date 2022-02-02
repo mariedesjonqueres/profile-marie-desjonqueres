@@ -1,0 +1,101 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;600&family=Varela+Round&display=swap');
+
+body {
+  color: #6D2E46;
+  background-color: #6D2E46;
+  font-family: 'Raleway', sans-serif;
+  font-size: 17px;
+  line-height: 32px;
+}
+
+h1, h2, h3 {
+  color: #A26769;
+  font-family: 'Varela', serif;
+}
+
+a {
+  color: #6D2E46;
+  text-decoration: none;
+  font-family: 'Varela', serif;
+  font-size: 17px, bold;
+}
+
+i{
+  font-size: 40px;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+p{
+  color: rgb(143,143,143);
+}
+
+.card {
+  background-color: rgb(255,255,255);
+  border-radius: 5px;
+  box-shadow: 5px 5px 3px #6D2E46;
+  margin: 20px;
+  padding: 5px;
+  width: 600px;
+}
+
+.container{
+  width: 700px;
+  margin: 0 auto;
+}
+
+.img-circle {
+  border-radius: 50px;
+}
+
+.text-center{
+  text-align: center;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline {
+  padding: 0px;
+}
+
+.btn{
+  background-color: #6D2E46;
+  color: white;
+  padding: 15px 20px;
+  border-radius: 4px;
+  display: block;
+  width: fit-content;
+  margin:auto;
+}
+
+.btn:hover{
+  background-color: #3A1825;
+}
+
+
+@media (max-width: 960px) {
+  /* Pour un écran < 960px, cette classe CSS s'applique */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* Pour un écran < 720px, cette classe CSS s'applique */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* Pour un écran < 540px, cette classe CSS s'applique */
+  .container {
+    width: 300px;
+  }
+}
